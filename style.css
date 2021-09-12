@@ -10,6 +10,12 @@ header {
     width: 100%;
     height: 120px;
     background-color: aqua;
+    display: flex;
+}
+
+header img{
+    width: auto;
+    height: 90px;
 }
 
 .top-img {
