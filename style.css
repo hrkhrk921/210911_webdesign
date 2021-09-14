@@ -12,6 +12,7 @@
 header {
     width: 100%;
     height: 180px;
+    padding: 2.2%;
     background-color: aqua;
 }
 
@@ -21,14 +22,18 @@ header img{
 }
 .head {
     display: flex;
+    justify-content: space-between;
 }
-.head p {
-    justify-content: flex-end
+
+.head-item {
+    display: flex;
+    justify-content:space-around;
 }
 
 .head-nav {
     display: flex;
     justify-content:space-around;
+    margin-top: 10px;
 }
 
 main {
