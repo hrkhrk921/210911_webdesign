@@ -19,10 +19,11 @@ header img{
     width: auto;
     height: 90px;
 }
-
-.head-item {
-    display: inline-flex;
-    justify-content: right;
+.head {
+    display: flex;
+}
+.head p {
+    justify-content: flex-end
 }
 
 .head-nav {
