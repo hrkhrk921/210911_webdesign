@@ -6,7 +6,6 @@
 }
 
 .container{
-    margin: 2.5%;
     background-image: url(/images/mark.png);
     background-size:auto;
 }
@@ -53,5 +52,35 @@ main {
 footer{
     width: 100%;
     height: 120px;
+    padding: 10px;
     background-color: coral;
+    display: flex;
+}
+
+.foot-items{
+    justify-content:space-between;
+}
+
+.flex1 { 
+    flex: 1 1; 
+}
+.flex2 { 
+    flex: 7 5;
+    padding-left: 70px;
+}
+
+footer img{
+    width: 120px;
+    height: 90px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.foot-item  {
+    width: 32%;
+    height: 60px;
 }
