@@ -38,16 +38,31 @@ header img{
 }
 
 main {
-    width: 100%;
+    width: 800px;
     height: 1400px;
-}
-
-.main-img{
+    margin: 0 auto;
+    padding: 20px 0;
     text-align: center;
 }
+
 .main img{
     width: 100%;
+    object-fit: cover;
 }
+
+.contents{
+    margin-bottom: 70px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1-item img{
+    width: 200px;
+}
+
 
 footer{
     width: 100%;
