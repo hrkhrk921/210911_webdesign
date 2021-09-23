@@ -45,9 +45,17 @@ main {
     text-align: center;
 }
 
-.main img{
-    width: 100%;
-    object-fit: cover;
+.main-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 10%;
+}
+
+.main-img{
+    height: 750px;
+    background-image: url(/images/nippon-revengers_saitama.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .contents{
